@@ -1,8 +1,7 @@
 import Image from "next/image";
 import {useState} from "react";
 export default function Home() {
-  const [isDrawing, setIsDrawing] = useState(false);
-  const [box, setBox] = useState(null);
+  const [isDraw, setIsDraw] = useState(false);
   const [completedBox, setCompletedBox] = useState(null);
 
   return (
